@@ -7,7 +7,6 @@ import java.util.HashMap;
 
 public class Main {
 
-
     public static void main(String[] args) {
         String[] array = {"Ольга", "Алексей", "Иван", "Петр", "Алексей", "Иван", "Петр", "Алексей", "Алексей", "Иван", "Петр", "Алексей", "Иван", "Петр"};
         HashMap<String, Integer> hashMap = new HashMap<>();
@@ -28,12 +27,12 @@ public class Main {
         phonebook.add("olga", " 4545634134");
         phonebook.add("Igor", " 4545634135");
         phonebook.add("olga", " 4545634136");
-
+        phonebook.add("Igor", " 4545634137");
+        phonebook.add("Igor", " 4545634138");
 
         phonebook.get("olga");
         phonebook.get("Igor");
         phonebook.get("Vasyl");
 
     }
-
 }

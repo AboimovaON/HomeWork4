@@ -7,7 +7,7 @@ public class Phonebook {
 
         HashMap<String, ArrayList<String>> namesAndNumbers;
 
-        public Phonebook(){;
+        public Phonebook(){
             namesAndNumbers = new HashMap<>();
         }
         public void add(String name, String number){
@@ -21,6 +21,7 @@ public class Phonebook {
 
         }
         public void get(String name){
-            System.out.println(name + namesAndNumbers.get(name));
+            System.out.print(name + "  ");
+            System.out.println(namesAndNumbers.get(name));
         }
 }
