@@ -22,6 +22,6 @@ public class Phonebook {
         }
         public void get(String name){
 
-            System.out.println(name + namesAndNumbers.get(name));
+            System.out.println(name + " " + namesAndNumbers.get(name));
         }
 }

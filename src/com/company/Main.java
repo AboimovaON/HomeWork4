@@ -28,7 +28,7 @@ public class Main {
         phonebook.add("Igor", " 4545634135");
         phonebook.add("olga", " 4545634136");
         phonebook.add("Igor", " 4545634137");
-        phonebook.add("Igor", " 4545634138");
+
 
         phonebook.get("olga");
         phonebook.get("Igor");
