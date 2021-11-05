@@ -28,6 +28,8 @@ public class Main {
         phonebook.add("olga", " 4545634134");
         phonebook.add("Igor", " 4545634135");
         phonebook.add("olga", " 4545634136");
+        phonebook.add("Igor", " 4545634137");
+
 
 
         phonebook.get("olga");
